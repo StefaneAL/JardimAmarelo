@@ -6,8 +6,11 @@
 
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(139, 135, 158);
 }
-
+header{
+    background-image: radial-gradient(rgb(205, 195, 253), rgb(62, 23, 236));
+}
 .header-inner-content{
     max-width: 13000px;
     margin-left: auto;
@@ -29,7 +32,7 @@ body{
 }
 .logo{
     color: rgb(9, 7, 19);
-    text-shadow: 5px 0px 10px bisque;
+    text-shadow: 1px 0px 5px bisque;
 }
 .logo span{
     color: rgb(255, 196, 0);
@@ -40,7 +43,6 @@ nav ul{
     list-style: none;
     align-items: center;
 }
-
 .nav-icon-container{
     display: flex;
     align-items: center;
@@ -48,4 +50,69 @@ nav ul{
 .nav-icon-container img{
     width: 30px;
     cursor: pointer;
+}
+.nav-icon-container img:first-child{
+    margin-right: 1rem;
+}
+nav ul li{
+    color: rgb(9, 7, 19);
+    text-shadow: 1px 0px 3px bisque;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+nav ul li:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s;
+    color: rgb(255, 196, 0);
+    font-weight: bold;
+}
+
+.menu{
+    display: none;
+}
+
+.header-botton-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.header-botton-side-left{
+    height: 100%;
+    flex-basis: 50%;
+}
+.header-botton-side-left h2{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.header-botton-side-left p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 1.5rem;
+}
+.header-botton-side-left button{
+    box-shadow: 1px 0px 5px rgb(9, 7, 19);
+    background-color:  rgb(255, 196, 0);
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 3.8rem;
+    border-radius: 9999px;
+    color:rgb(9, 7, 19);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.header-botton-side-left button:hover{
+    background-color:  rgb(223, 171, 2);
+    transition: all 0.2s;
+}
+.header-botton-side-rigth{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-botton-side-rigth img{
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px rgb(9, 7, 19);
+    width: 60%;
 }
