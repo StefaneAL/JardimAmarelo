@@ -6,10 +6,10 @@
 
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(139, 135, 158);
+    background-color:#091a6a;
 }
 header{
-    background-image: radial-gradient(rgb(205, 195, 253), rgb(62, 23, 236));
+    background-image: radial-gradient(#82bbdc,#091a6a);
 }
 .header-inner-content{
     max-width: 13000px;
@@ -18,12 +18,15 @@ header{
 
 }
 .navbar{
-    background-color: rgb(25, 25, 94);
+    background-color: #1c2048;
     padding: 1rem;
     position: sticky;
     top: 0;
-    box-shadow: 100px 0px 100px rgb(62, 23, 236);
+    box-shadow: 10px 0px 10px #091a6a;
     z-index: 99;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+
 }
 .navbar>div{
     display: flex;
@@ -31,11 +34,12 @@ header{
     justify-content: space-between;
 }
 .logo{
-    color: rgb(9, 7, 19);
-    text-shadow: 1px 0px 5px bisque;
+    color: #0f0c1d;
+    text-shadow: -3px 3px 3px #eb9a09;
 }
 .logo span{
-    color: rgb(255, 196, 0);
+    color: #eb9a09;
+    text-shadow: -3px 3px 3px #0f0c1d;
 }
 
 nav ul{
@@ -55,16 +59,18 @@ nav ul{
     margin-right: 1rem;
 }
 nav ul li{
-    color: rgb(9, 7, 19);
-    text-shadow: 1px 0px 3px bisque;
+    color: #0f0c1d;
+    text-shadow: -1px 1px 1.5px #eb9a09;
     margin-right: 1.5rem;
     cursor: pointer;
 }
 nav ul li:hover{
     transform: translateY(-5px);
     transition: all 0.2s;
-    color: rgb(255, 196, 0);
+    color: #eb9a09;
     font-weight: bold;
+    text-shadow: -1px 1px 1.5px #0f0c1d;
+
 }
 
 .menu{
@@ -91,18 +97,18 @@ nav ul li:hover{
     margin: 1.5rem;
 }
 .header-botton-side-left button{
-    box-shadow: 1px 0px 5px rgb(9, 7, 19);
-    background-color:  rgb(255, 196, 0);
+    box-shadow: 1px 0px 5px #0f0c1d;
+    background-color:  #eb9a09;
     border: none;
     cursor: pointer;
     padding: 0.8rem 3.8rem;
     border-radius: 9999px;
-    color:rgb(9, 7, 19);
+    color:#0f0c1d;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
 .header-botton-side-left button:hover{
-    background-color:  rgb(223, 171, 2);
+    background-color: #997618;
     transition: all 0.2s;
 }
 .header-botton-side-rigth{
@@ -113,6 +119,9 @@ nav ul li:hover{
 }
 .header-botton-side-rigth img{
     border-radius: 5px;
-    box-shadow: 1px 0px 5px rgb(9, 7, 19);
+    box-shadow: 1px 0px 5px #0f0c1d;
     width: 60%;
+}
+.header-inner-content{
+    border-radius: 3px;
 }
