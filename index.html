@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/globals.css">
 </head>
 <body>
-    <div class="navbar">
+    <div class="navbar show-menu">
         <div class="header-inner-content">
             <h1 class="logo">Jardim<span>Amarelo</span></h1>
             <nav>
@@ -21,7 +21,7 @@
             </nav>
             <div class="nav-icon-container">
                 <img src="./img/star_96096.png">
-                <img src="./img/9794711.png" class="menu">
+                <img src="./img/9794711.png" class="menu-button">
             </div>
         </div>
     </div>
@@ -43,5 +43,34 @@
             </div>
         </div>
     </header>
+    <!-- MAIN CONTENT -->
+    <main>
+        <div class="darkblue-backgound">
+            <div class="page-inner-content">
+                <div class="colun colum4">
+                    <img src="img/Vincent van Gogh - Four Cut Sunflowers, agosto-setembro de 1887 – óleo sobre tela – 50 x 100 cm - Kröller-Müller Museum, Otterlo, Holanda.jpg" alt="">
+                    <img src="img/Vincent van Gogh - Two Cut Sunflowers, agosto-setembro de 1887 – óleo sobre tela – 21 x 27 cm - Van Gogh Museum, Amsterdam, Holanda.jpg" alt="">
+                    <img src="img/Vincent van Gogh - Two Cut Sunflowers, agosto-setembro de 1887 – óleo sobre tela – 43,2 x 61 cm - Metropolitan Museum of Art, New York, USA.jpg" alt="">
+                    <img src="img/Vincent van Gogh – Two Cut Sunflowers, agosto-setembro de 1887 – óleo sobre tela – 50 x 60 cm - Kunstmuseum, Bern, Alemanha.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="page-inner-content">
+            <h3>
+                Flores amarelas para seu Jardim
+            </h3 class="section-title">
+            <div class="subtitle-underline">
+
+            </div>
+        </div>
+    </main>
+    <script>
+        const navbar = document.querySelector('.navbar');
+        const menuButton = document.querySelector('.menu-button')
+
+        menuButton.addEventListener('click', () => {
+            navbar.classList.toggle('show_menu');
+        })
+    </script>
 </body>
 </html>
