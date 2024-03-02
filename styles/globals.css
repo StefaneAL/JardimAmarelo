@@ -100,7 +100,7 @@ nav ul li:hover{
     margin: 1.5rem;
 }
 .header-botton-side-left button{
-    box-shadow: 1px 0px 5px #0f0c1d;
+    box-shadow: 5px 0px 10px #0f0c1d;
     background-color:  #eb9a09;
     border: none;
     cursor: pointer;
@@ -122,7 +122,7 @@ nav ul li:hover{
 }
 .header-botton-side-rigth img{
     border-radius: 5px;
-    box-shadow: 1px 0px 5px #0f0c1d;
+    box-shadow: -10px 0px 10px #0f0c1d;
     width: 60%;
 }
 .header-inner-content{
@@ -172,23 +172,23 @@ nav ul li:hover{
 .page-inner-content{
     max-width: 1280px;
     margin: 0 auto;
-
 }
 .colun{
     display: grid;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-evenly;
     padding: 3rem 0.8rem;
 }
 .colun img{
-    width: 200px;
-    height: 150px;
-    
-}
-.colum4{
-    grid-template-columns: repeat(4, 1fr);
-    gap: 3rem;
+    border-radius: 5px;
+    box-shadow: -10px 0px 10px #0f0c1d;
+    width: 100%;
 
+}
+.colun1{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    
 }
 
 /* MAIN CONTENT */
