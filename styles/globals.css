@@ -182,7 +182,7 @@ nav ul li:hover{
 .colun img{
     border-radius: 5px;
     box-shadow: -10px 0px 10px #0f0c1d;
-    width:100%;
+    max-width:100%;
 }
 .colun1{
     grid-template-columns: repeat(3, 1fr);
