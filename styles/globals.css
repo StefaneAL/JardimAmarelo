@@ -11,7 +11,7 @@ body{
 
 /* HEADER */
 header{
-    background-image: radial-gradient(#82bbdc,#091a6a);
+    background-image: linear-gradient(to top,#091a6a,#82bbdc,#091a6a);
 }
 .header-inner-content{
     max-width: 13000px;
@@ -170,7 +170,7 @@ main{
     background-color: #82bbdc;
 }
 .darkblue-backgound{
-    background-color: #1c2048;
+    background-color: #0f0c1d;
 }
 .page-inner-content{
     max-width: 1280px;
@@ -191,6 +191,12 @@ main{
     border-radius: 5px;
     box-shadow: -10px 0px 10px #0f0c1d;
 }
+.colun1 p{
+    font-weight: 600;
+    margin-top: 0.4rem;
+    font-size: small;
+    color: #997618;
+}
 .colun2{
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
@@ -204,7 +210,6 @@ main{
 }
 .colun2 img{
     max-width: 100%;
-    max-height: 100%;
     border-radius: 5px;
     box-shadow: -10px 0px 10px #0f0c1d;
 }
