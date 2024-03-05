@@ -3,15 +3,13 @@
     padding: 0;
     margin: 0;
 }
-
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color:#091a6a;
+    background-color:#0f0c1d;
 }
-
 /* HEADER */
 header{
-    background-image: linear-gradient(to top,#091a6a,#82bbdc,#091a6a);
+    background-image: linear-gradient(to top,#0f0c1d, #03020a);
 }
 .header-inner-content{
     max-width: 13000px;
@@ -24,7 +22,7 @@ header{
     padding: 1rem;
     position: sticky;
     top: 0;
-    box-shadow: 10px 0px 10px #091a6a;
+    box-shadow: -2px 0px 15px rgb(85, 88, 189);
     z-index: 99;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
@@ -44,7 +42,6 @@ header{
     color: #eb9a09;
     text-shadow: -3px 3px 3px #0f0c1d;
 }
-
 nav ul{
     display: flex;
     list-style: none;
@@ -75,11 +72,9 @@ nav ul li:hover{
     text-shadow: -1px 1px 1.5px #0f0c1d;
 
 }
-
 .menu-button{
     display: none;
 }
-
 .header-botton-side{
     display: flex;
     align-items: center;
@@ -92,9 +87,12 @@ nav ul li:hover{
 }
 .header-botton-side-left h2{
     font-size: 1.2rem;
+    color: #997618;
+    text-shadow: -1px 1px 1.5px #eb9a09;
     margin-bottom: 1.5rem;
 }
 .header-botton-side-left p{
+    color: #997618;
     font-size: 1rem;
     line-height: 1.5rem;
     margin: 1.5rem;
@@ -164,17 +162,29 @@ nav ul li:hover{
     }
 }
 /* HEADER */
-
 /* MAIN CONTENT */
 main{
-    background-color: #82bbdc;
+    background-color: #1c2048;
 }
 .darkblue-backgound{
-    background-color: #0f0c1d;
+    background-image: linear-gradient(to top, #1c2048, #0f0c1d);
 }
 .page-inner-content{
     max-width: 1280px;
     margin: 0 auto;
+}
+.section-title{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #8a6c19;
+}
+.subtitle-underline{
+    width: 100px;
+    height: 5px;
+    background-color: #8a6c19;
+    border-radius: 9999px;
+    margin: 8px auto 0 auto;
 }
 .colun{
     display: grid;
@@ -182,9 +192,8 @@ main{
     padding: 3rem 0.8rem;
 }
 .colun1{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
-    text-align:inherit;
 }
 .colun1 img{
     max-width: 100%;
@@ -195,7 +204,7 @@ main{
     font-weight: 600;
     margin-top: 0.4rem;
     font-size: small;
-    color: #997618;
+    color: #8a6c19;
 }
 .colun2{
     grid-template-columns: repeat(4, 1fr);
@@ -213,15 +222,22 @@ main{
     border-radius: 5px;
     box-shadow: -10px 0px 10px #0f0c1d;
 }
-.section-title{
+.colun2 p{
+    font-weight: 600;
+    margin-top: 0.4rem;
+    font-size: small;
+    color: #7c672b;
+}
+.section-title2{
+    color: #7c672b;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 1rem;
     font-size: 1.8rem;
 }
-.subtitle-underline{
+.subtitle-underline2{
     width: 100px;
     height: 5px;
-    background-color: #0f0c1d;
+    background-color: #7c672b;
     border-radius: 9999px;
     margin: 8px auto 0 auto;
 }
@@ -235,6 +251,39 @@ main{
     font-weight: 600;
     margin-top: 0.4rem;
     font-size: small;
+}
+.colun3{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.colun3 img{
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: -10px 0px 10px #0f0c1d;
+}
+.colun3 p{
+    font-weight: 600;
+    margin-top: 0.4rem;
+    font-size: small;
+    color: #271f0e;
+}
+.section-title3{
+    color: #271f0e;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.subtitle-underline3{
+    width: 100px;
+    height: 5px;
+    background-color: #271f0e;
+    border-radius: 9999px;
+    margin: 8px auto 0 auto;
+}
+.page-inner-content2{
+    background-image: linear-gradient(to top, #2c2f55, #1c2048);
+}
+.page-inner-content3{
+    background-image: linear-gradient(to top,  rgb(81, 85, 138), #2c2f55);
 }
 
 /* MAIN CONTENT */
