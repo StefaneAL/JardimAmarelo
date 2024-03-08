@@ -145,7 +145,7 @@ nav ul li:hover{
     }
     nav{
         position: absolute;
-        background-color: #1c2048;
+        background-color: #191b2e;
         width: 100%;
         top: 46px;
         display: none;
@@ -285,5 +285,9 @@ main{
 .page-inner-content3{
     background-image: linear-gradient(to top,  rgb(81, 85, 138), #2c2f55);
 }
-
+.exclusive-container{
+    color: antiquewhite;
+    flex-direction: row-reverse;
+    padding: 5rem 1rem;
+}
 /* MAIN CONTENT */
