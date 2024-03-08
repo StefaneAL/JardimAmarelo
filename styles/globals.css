@@ -18,11 +18,11 @@ header{
 
 }
 .navbar{
-    background-color: #1c2048;
+    background-color: #191b2e;
     padding: 1rem;
     position: sticky;
     top: 0;
-    box-shadow: -2px 0px 15px rgb(85, 88, 189);
+    box-shadow: -2px 0px 15px rgb(51, 52, 71);
     z-index: 99;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
