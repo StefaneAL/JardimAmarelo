@@ -169,10 +169,16 @@ main{
 .darkblue-backgound{
     background-image: linear-gradient(to top, #1c2048, #0f0c1d);
 }
-.page-inner-content{
-    max-width: 1280px;
+.page-inner-content, .page-inner-content2, .page-inner-content3{
     margin: 0 auto;
 }
+.page-inner-content2{
+    background-image: linear-gradient(to top, #2c2f55, #1c2048);
+}
+.page-inner-content3{
+    background-image: linear-gradient(to top,  rgb(81, 85, 138), #2c2f55);
+}
+
 .section-title{
     margin-top: 1rem;
     text-align: center;
@@ -191,24 +197,20 @@ main{
     justify-content: space-evenly;
     padding: 3rem 0.8rem;
 }
-.colun1{
+.colun1, .colun2{
     grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
-.colun1 img{
+.colun1 img, .colun2 img{
     max-width: 100%;
     border-radius: 5px;
     box-shadow: -10px 0px 10px #0f0c1d;
 }
-.colun1 p{
+.colun1 p, .colun2 p{
     font-weight: 600;
     margin-top: 0.4rem;
     font-size: small;
     color: #8a6c19;
-}
-.colun2{
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
 }
 .colun>*{
     cursor: pointer;
@@ -216,17 +218,6 @@ main{
 }
 .colun>*:hover{
     transform: translateY(-5px);
-}
-.colun2 img{
-    max-width: 100%;
-    border-radius: 5px;
-    box-shadow: -10px 0px 10px #0f0c1d;
-}
-.colun2 p{
-    font-weight: 600;
-    margin-top: 0.4rem;
-    font-size: small;
-    color: #7c672b;
 }
 .section-title2{
     color: #7c672b;
@@ -243,7 +234,6 @@ main{
 }
 .art{
     color: #0f0c1d;
-    margin: 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -279,15 +269,43 @@ main{
     border-radius: 9999px;
     margin: 8px auto 0 auto;
 }
-.page-inner-content2{
-    background-image: linear-gradient(to top, #2c2f55, #1c2048);
-}
-.page-inner-content3{
-    background-image: linear-gradient(to top,  rgb(81, 85, 138), #2c2f55);
-}
 .exclusive-container{
     color: antiquewhite;
     flex-direction: row-reverse;
     padding: 5rem 1rem;
 }
+.exclusive-container img{
+    max-width: 500px;
+}
+.darkblue-backgound-exclusive-container{
+    background-image: linear-gradient(to top, #03020a,  rgb(81, 85, 138));
+}
+
+/* MEDIA QUQUERIES */
+@media(max-width: 800px){
+    .section-title, .section-title2, .section-title3{
+        font-size: 1rem;
+    }
+    .colun1, .colun2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .colun3{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .art-name{
+        max-height: 1rem;
+        overflow: hidden;
+        font-size: 0.8rem;
+    }
+    .exclusive-container{
+        flex-direction: column-reverse;
+    }
+    .exclusive-container img{
+        margin-bottom: 4rem;
+    }
+}
+
+
+/* MEDIA QUQUERIES */ 
+
 /* MAIN CONTENT */
